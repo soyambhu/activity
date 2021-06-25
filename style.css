@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+#welcome {
+    position: absolute;
+    height: 100%;
+    color: #ffffff;
+    bottom: 0;
+    background: linear-gradient(#c2fc03 0%, #fc0303 100%);
+    display: table;
+    width: 100%;
+    z-index: 9;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.profile {
+    width: 175px;
+    border-radius: 50%;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.line {
+    height: 6px;
+    background: #000;
+    width: 70px;
+    margin: 8px auto;
+
+}
+
+p {
+    font-size: 17px;
+}
+
+.menu {
+    position: fixed;
+    background: white;
+    z-index: 10;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+}
+
+.links {
+    font-family: cursive;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 25px;
+    display: inline;
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: royalblue;
+    text-shadow: 2px 2px blue;
+}
+
+.article:hover {
+    color: aqua;
+}
+
+#writings a {
+    text-decoration: underline !important;
+    color: blueviolet !important;
+    text-shadow: none !important;
+}
+
+#contacts {
+    background: firebrick;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+}
